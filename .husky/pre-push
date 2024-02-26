@@ -1,0 +1,4 @@
+echo 'Running pre-push'
+yarn lint
+yarn test
+echo 'Ended pre-push'
