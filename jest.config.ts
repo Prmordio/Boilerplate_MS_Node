@@ -3,6 +3,11 @@ import type { Config } from 'jest';
 const config: Config = {
   verbose: true,
   roots: ['<rootDir>/src'],
+  testPathIgnorePatterns: ['node_modules'],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['json', 'lcov', 'text', 'clover', 'cobertura'],
+  preset: 'ts-jest',
+  testEnvironment: 'node',
   collectCoverage: true,
   coverageThreshold: {
     global: {
