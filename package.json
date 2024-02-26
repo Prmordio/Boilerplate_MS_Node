@@ -13,6 +13,7 @@
     "prettier": "^3.2.5"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.23.3",
     "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
